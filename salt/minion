@@ -1,0 +1,10 @@
+state_verbose: False
+file_client: local
+file_roots:
+  base:
+    - /vagrant/salt/root
+    - /srv/salt
+pillar_roots:
+  base:
+    - /vagrant/salt/pillar
+    - /srv/pillar

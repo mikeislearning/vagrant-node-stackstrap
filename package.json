@@ -1,0 +1,17 @@
+{
+  "name": "my-app",
+  "version": "0.0.0",
+  "description": "My app",
+  "keywords": [
+    "express",
+    "forever",
+    "vagrant",
+    "node"
+  ],
+  "author": "Your name here",
+  "dependencies": {
+    "express": "*",
+    "forever": "*",
+    "jade": "*",
+  }
+}
