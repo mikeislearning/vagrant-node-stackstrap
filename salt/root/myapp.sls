@@ -29,6 +29,7 @@ include:
              create_root=False,
              root='app',
              defaults={
+              'sendfile_off': True,
               'port': 3000,
               'try_files': '$uri @upstream'
              })
