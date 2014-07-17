@@ -5,7 +5,7 @@ app 		= express()
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.set('view engine', 'jade')
-app.set('views', __dirname + '/public')
+app.set('views', __dirname + '/views')
 
 app.get '/*', (req, res) ->
 
